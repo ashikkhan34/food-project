@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+.head{
+    background-color: #EDF2EE;
+    height: 42px;
+
+}
+
+.hero{
+    background-image: url(src/assets/BG.png);
+    background-repeat: no-repeat;
+}
