@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar'
 
 export default function MainLayOut() {
   return (
-    <div>
+    <div >
         <Navbar></Navbar>
         <Outlet></Outlet>
     </div>

@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div>
         <header>
-            <nav className='head flex justify-around '>
+            <nav className='head container max-w-full flex justify-around '>
                 <div className='flex gap-2 items-center '>
                     <CiLocationOn className='text-xl'/>
                 <p className='text-green-800 font-sm'>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>

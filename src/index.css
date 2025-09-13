@@ -1,6 +1,9 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
-
+body{
+    font-family: "Poppins", sans-serif;
+}
 .head{
     background-color: #EDF2EE;
     height: 42px;
@@ -11,3 +14,19 @@
     background-image: url(src/assets/BG.png);
     background-repeat: no-repeat;
 }
+
+.stat{
+    background-image: url(../src/assets/bg-stat.png);
+    background-repeat: no-repeat;
+}
+.best-sale{
+    background-image: url(../src/assets/stat2.png);
+    background-repeat: no-repeat;
+
+}
+.best-sale2{
+    background-image: url(../src/assets/stat.png);
+    background-repeat: no-repeat;
+
+}
+
