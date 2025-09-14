@@ -3,8 +3,8 @@ import React from "react";
 export default function Stat() {
   return (
     <div>
-      <div className="stat h-100">
-        <div className="flex justify-center gap-4 -mt-16 items-center">
+      <div className="stat  h-100">
+        <div className="flex justify-center gap-4 -mt-16 items-center container mx-auto">
           <div className="w-60 h-40 border bg-white  opacity-5">
             <div className="text-center justify-center items-center z-50 mt-10">
               <h1 className="text-4xl text-black font-bold opacity-100">37 +</h1>

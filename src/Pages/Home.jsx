@@ -6,6 +6,7 @@ import Categorys from '../Components/Categorys'
 import FoodStore from '../Components/FoodStore'
 import Stat from '../Components/Stat'
 import BestSale from '../Components/BestSale'
+import BestPdroduct from '../Components/BestPdroduct'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <FoodStore></FoodStore>
         <Stat></Stat>
         <BestSale></BestSale>
+        <BestPdroduct></BestPdroduct>
     </div>
   )
 }

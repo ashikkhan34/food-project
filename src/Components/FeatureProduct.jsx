@@ -9,12 +9,12 @@ import { RiShoppingBagLine } from 'react-icons/ri'
 
 export default function FeatureProduct() {
   return (
-    <div>
+    <div className='container mx-auto'>
         <div className='flex justify-between px-10 mt-10'>
             <h1 className='font-semibold text-4xl'>Feature Product</h1>
             <p className='flex gap-3 items-center text-sm text-green-500'>View All <FaArrowRight /></p>
         </div>
-        <div className='grid md:grid-cols-2 lg:grid-cols-4 mx-auto gap-1 mt-10'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-4 mx-auto gap-1 mt-10 ml-10'>
             <div className='w-[320px] h-[400px] border border-gray-300 rounded-sm mb-10'>
                 <div className=' w-[320px] h-[250px] mb-10'>
                     {/* <div className='w-24 h-8 bg-red-400 rounded-sm mt-6 ml-4'>

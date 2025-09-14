@@ -10,15 +10,15 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 
 export default function Categorys() {
   return (
-    <div>
-      <div className="flex justify-between px-10 mt-10">
+    <div className="container mx-auto">
+      <div className="flex justify-between  mt-10">
         <h1 className="font-semibold text-4xl">Shop by top Categories</h1>
         <p className="flex gap-3 items-center text-sm text-green-500">
           View All <FaArrowRight />
         </p>
       </div>
 
-      <div className="flex gap-4 mb-10 justify-center mt-10">
+      <div className="flex gap-4 mb-10 justify-center mt-10 ">
         <div className="w-10 mr-4 h-10 rounded-full bg-white border border-gray-300  mt-20">
             <FaArrowLeftLong  className="ml-3 mt-2.5" />
         </div>

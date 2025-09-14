@@ -11,15 +11,15 @@ import { BsDot } from "react-icons/bs";
 
 export default function Hero() {
   return (
-    <div className="hero container w-full h-[440px] mb-12">
+    <div className="hero container mx-auto w-full h-[440px] mb-12">
       <div className="flex items-center justify-evenly ">
-        <div className="flex items-center">
+        <div className="flex items-center ">
           <div className="h-20 w-20 rounded-full bg-white shadow-sm ">
             <FaArrowLeft className="text-2xl ml-7 mt-7" />
           </div>
           <img className="w-[540px] mt-14" src={img} alt="" />
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ml-10">
           <div>
             <p className="text-sm text-green-600">Welcome to shopery</p>
             <h1 className="text-6xl font-semibold py-4">
@@ -35,16 +35,16 @@ export default function Hero() {
               shop now <FaArrowRight />
             </button>
           </div>
-          <div className="h-20 w-20 rounded-full bg-white shadow-sm ">
+          <div className="h-20 w-20 rounded-full bg-white shadow-sm ml-14">
               <FaArrowRightLong className="text-2xl ml-7 mt-7" />
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <BsDot className="text-4xl" />
         <BsDot className="text-4xl text-green-600" />
         <BsDot className="text-4xl"/>
-      </div>
+      </div> */}
     </div>
   );
 }

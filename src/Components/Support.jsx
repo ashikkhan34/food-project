@@ -7,7 +7,7 @@ import icon from '../assets/Icon.png'
 export default function Support() {
   return (
     <>
-    <div className='flex justify-around'>
+    <div className='flex container mx-auto justify-around'>
         <div className='w-72 h-52  mb-10'>
             <div className='mt-10 justify-center items-center text-center'>
                 <img className='ml-28' src={icon} alt="" />
@@ -43,7 +43,7 @@ export default function Support() {
         </div>
         
     </div>
-    <hr className='-mt-10 w-[94%] mx-auto text-gray-400' />
+    <hr className=' container mx-auto -mt-10 w-[75%] text-gray-400' />
     </>
   )
 }

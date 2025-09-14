@@ -6,12 +6,12 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function FoodStore() {
   return (
-    <div className="flex  justify-around items-center px-8 mt-20 mb-10">
-      <div className="flex w-[40%] gap-3">
+    <div className="flex  items-center gap-3 mt-20 mb-10 container mx-auto ">
+      <div className="flex w-[40%] gap-3 ">
         <img className="w-68 h-96" src={img} alt="" />
         <img className="w-[444px] h-[457px]" src={img2} alt="" />
       </div>
-      <div className="w-[60%] ml-76 space-y-2">
+      <div className="w-[60%] ml-56 space-y-2">
         <h1 className="text-3xl font-semibold">
           100% Trusted <br /> Organic Food Store
         </h1>
@@ -22,7 +22,7 @@ export default function FoodStore() {
         <p className="text-gray-500 ml-8 text-sm">
           Ut quis tempus erat. Phasellus euismod bibendum magna non tristique.
           Pellentesque semper vestibulum elit sed condimentum. Nunc pretium
-          fermentum interdum.{" "}
+          fermentum interdum.
         </p>
         <h1 className="text-xl font-semibold gap-2 flex items-center">
           <IoCheckmarkCircleSharp className="text-2xl text-green-500" />
