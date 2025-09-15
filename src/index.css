@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+/* .active{
+    color: red;
+    font-weight: bold;
+} */
+
+
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -26,6 +32,28 @@ body{
 }
 .best-sale2{
     background-image: url(../src/assets/stat.png);
+    background-repeat: no-repeat;
+
+}
+
+.hot{
+    background-image: url(../src/assets/bestDeals/Rectangle\ 54.png);
+    background-repeat: no-repeat;
+
+}
+.latest{
+    background-image: url(../src/assets/news/BG.png);
+    background-repeat: no-repeat;
+
+}
+.customer{
+    background-image: url(../src/assets/cus.png);
+    background-repeat: no-repeat;
+
+}
+
+.footer1{
+    background-image: url(../src/assets/footer/BG.png);
     background-repeat: no-repeat;
 
 }

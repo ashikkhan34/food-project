@@ -8,8 +8,8 @@ export default function FoodStore() {
   return (
     <div className="flex  items-center gap-3 mt-20 mb-10 container mx-auto ">
       <div className="flex w-[40%] gap-3 ">
-        <img className="w-68 h-96" src={img} alt="" />
-        <img className="w-[444px] h-[457px]" src={img2} alt="" />
+        <img className="w-68 h-80" src={img} alt="" />
+        <img className="w-[400px] h-[357px]" src={img2} alt="" />
       </div>
       <div className="w-[60%] ml-56 space-y-2">
         <h1 className="text-3xl font-semibold">
